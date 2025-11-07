@@ -1,6 +1,6 @@
 baseURL = 'https://muncus.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Marc's Links"
 
 [module]
   [[module.imports]]
