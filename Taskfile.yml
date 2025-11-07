@@ -1,0 +1,19 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  default:
+    cmds:
+      - echo "try task -a instead to list actions."
+    silent: true
+  build:
+    cmds:
+      - hugo --gc --minify
+  push:
+    deps: [build]
+    cmds:
+      - git subtree push --prefix public origin gh-pages
