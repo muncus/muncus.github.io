@@ -1,0 +1,13 @@
+{{ with .Params.about }}
+<div class="bg-white bg-opacity-10 rounded-lg p-6 mb-6 border border-white border-opacity-20">
+  {{ if .title }}<h2 class="text-xl font-bold mb-4">{{ .title }}</h2>{{ end }}
+  <div class="space-y-4">
+    {{ range .sections }}
+      <div>
+        {{ if .heading }}<h3 class="font-semibold mb-2">{{ .heading }}</h3> {{ end }}
+        <p class="text-sm opacity-80">{{ .content }}</p>
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

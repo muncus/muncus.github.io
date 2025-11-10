@@ -3,7 +3,7 @@ title: "Marc D"
 # Profile settings
 profileImage: "images/avatar.png"        # path under static/
 name: "Marc Dougherty"
-description: "Go Developer | Reliability (SRE) | Community Engineer"
+description: "Go DevRel Lead (@ Google) | Reliability (SRE)"
 socials:
   - url: "https://github.com/muncus"
     icon: "fab fa-github"
@@ -18,6 +18,9 @@ socials:
 
 # Link cards
 links:
+  - href: "https://linkedin.com/in/doughertymarc"
+    icon: "fab fa-linkedin"
+    title: "Find me on LinkedIn"
   - href: "https://marcdougherty.com"
     icon: "fas fa-globe"
     title: "Personal Blog"
@@ -48,12 +51,12 @@ links:
 # About section (optional section)
 
 # about:
-#   title: "About Me"
-#   sections:
-#     - heading: "Professional Background"
-#       content: "I'm a full-stack developer with 5+ years of experience building web applications. Specialized in JavaScript frameworks and cloud architecture."
-#     # - heading: "Current Focus"
-#     #   content: "Currently working on open-source tools to improve developer productivity and accessibility in web development."
-#     # - heading: "Personal Interests"
-#     #   content: "When not coding, I enjoy photography, hiking, and contributing to local tech communities through mentorship programs."
+  # title: "Bio"
+  # sections:
+  #   - heading: "Mission"
+  #     content: "I want to make it easier for people to run reliable services on the internet."
+    # - heading: "Current Focus"
+    #   content: "Currently working on open-source tools to improve developer productivity and accessibility in web development."
+    # - heading: "Personal Interests"
+    #   content: "When not coding, I enjoy photography, hiking, and contributing to local tech communities through mentorship programs."
 ---
