@@ -6,3 +6,6 @@ title = "Marc's Links"
   [[module.imports]]
     path = 'github.com/cx48/LucentLink-Hugo'
     disable = false
+
+[params]
+  googleAnalytics = "G-B2BQBY4RGY"
