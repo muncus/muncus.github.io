@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Content Overrides for Hugo Blog
+   - Make links in content (like ATO Keynote) more visible with high contrast
+   - Restore list bullets on <li> and proper indentation (overriding Tailwind Preflight)
+   ========================================================================== */
+
+/* Content Lists & Bullet Restoration */
+.content-card ul,
+.content-text ul,
+.space-y-4 ul,
+ul.content-list {
+  list-style-type: disc !important;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem !important;
+}
+
+.content-card ol,
+.content-text ol,
+.space-y-4 ol,
+ol.content-list {
+  list-style-type: decimal !important;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem !important;
+}
+
+.content-card li,
+.content-text li,
+.space-y-4 li,
+li {
+  display: list-item !important;
+  list-style-type: inherit !important;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+
+/* Content Links Styling */
+.content-card a:not(.link-card),
+.content-text a,
+.space-y-4 a:not(.link-card) {
+  color: #60a5fa !important; /* Tailwind blue-400: bright, high-contrast on dark backgrounds */
+  text-decoration: underline !important;
+  text-decoration-thickness: 1.5px !important;
+  text-underline-offset: 3px !important;
+  font-weight: 500;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.content-card a:not(.link-card):hover,
+.content-text a:hover,
+.space-y-4 a:not(.link-card):hover {
+  color: #93c5fd !important; /* Tailwind blue-300: lighter glow on hover */
+  text-decoration-color: #93c5fd !important;
+}
+
+.content-card a:not(.link-card):focus-visible,
+.content-text a:focus-visible,
+.space-y-4 a:not(.link-card):focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
