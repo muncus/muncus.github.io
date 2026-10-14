@@ -50,13 +50,11 @@ links:
 
 # About section (optional section)
 
-# about:
-  # title: "Bio"
-  # sections:
-  #   - heading: "Mission"
-  #     content: "I want to make it easier for people to run reliable services on the internet."
-    # - heading: "Current Focus"
-    #   content: "Currently working on open-source tools to improve developer productivity and accessibility in web development."
-    # - heading: "Personal Interests"
-    #   content: "When not coding, I enjoy photography, hiking, and contributing to local tech communities through mentorship programs."
+featured:
+  sections:
+    - heading: "Talk(s): All Things Open (Oct 20)"
+      content: |
+        * [Keynote](https://2026.allthingsopen.org/sessions/where-is-my-futuristic-app-generative-ui-and-the-open-future-2)
+        * [deeper
+            dive](https://2026.allthingsopen.org/sessions/the-future-of-apps-is-open-source-and-agentic)
 ---
