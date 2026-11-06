@@ -54,7 +54,11 @@ featured:
   sections:
     - heading: "Talk(s): All Things Open (Oct 20)"
       content: |
-        * [Keynote](https://2026.allthingsopen.org/sessions/where-is-my-futuristic-app-generative-ui-and-the-open-future-2)
+        * [Keynote](https://2026.allthingsopen.org/sessions/where-is-my-futuristic-app-generative-ui-and-the-open-future-2) ([Video](https://www.youtube.com/watch?v=IwAeL5upKFs))
         * [deeper
             dive](https://2026.allthingsopen.org/sessions/the-future-of-apps-is-open-source-and-agentic)
+    - heading: "Recent Projects"
+      content: |
+        * [A2term](http://github.com/muncus/a2term) - a2a client with a2ui
+            support
 ---
